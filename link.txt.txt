@@ -1,0 +1,1 @@
+https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification/data?select=jigsaw-toxic-comment-train.csv
