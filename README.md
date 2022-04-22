@@ -4,25 +4,27 @@ DATA DESCRIPTION :
 
 The primary data for the competition is, in each provided file, the comment_text column. This contains the text of a comment which has been classified as toxic or non-toxic (0...1 in the toxic column). The train set’s comments are entirely in english and come either from Civil Comments or Wikipedia talk page edits. The test data's comment_text columns are composed of multiple non-English languages.
 
-Dataset have 223549 rows and columns 8
+Dataset have 223549 rows and  8 columns
 
 columns are:
 
-id - dentifier within each file.
+1. id - dentifier within each file.
 
-comment_text - the text of the comment to be classified.
+2. comment_text - the text of the comment to be classified.
 
-toxic : whether or not the comment is classified as toxic
+3. toxic : whether or not the comment is classified as toxic
 
-severe_toxic
+4. severe_toxic
 
-obscene
+5. obscene
 
-threat
+6. threat
 
-insult
+7. insult
 
-identity_hate
+8. identity_hate
+
+Flowchart :
 
 ![Screenshot](flow.jpeg)
 
